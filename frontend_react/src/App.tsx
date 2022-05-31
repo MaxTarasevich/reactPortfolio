@@ -1,11 +1,22 @@
 import React from 'react';
 
+import {About, Footer, Header, Skills, Testimonial, Work} from './container/index'
+import {Navbar} from './components/index'
+
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-center">
-      Hello world!
-    </h1>
+   <div className='App'>
+     
+     <Navbar />
+     <Header />
+     <About />
+     <Work />
+     <Skills />
+     <Testimonial />
+     <Footer />
+
+   </div>
   );
 }
 
