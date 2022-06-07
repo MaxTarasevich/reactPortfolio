@@ -5,7 +5,7 @@ import image from '../../constans/images'
 
 const Navbar = () => {
   return (
-   <nav className=''>
+   <nav className='app_navbar'>
        <div>
            <img src={image.logo} alt="logo" />
        </div>
