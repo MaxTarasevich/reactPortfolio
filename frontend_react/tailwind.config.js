@@ -3,6 +3,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'DM': 'DM Sans',
+    },
     extend: {
       colors: {
         'primary': '#edf2f8',

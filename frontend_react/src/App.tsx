@@ -6,8 +6,8 @@ import {Navbar} from './components/index'
 
 function App() {
   return (
-   <div className='App'>
-     
+   <div className='app bg-primary font-DM'>
+
      <Navbar />
      <Header />
      <About />
