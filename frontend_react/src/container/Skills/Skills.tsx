@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import  AppWrap  from '../../wrapper/AppWrap';
 import { urlFor, client } from '../../client';
 import './Skills.scss';
+import MotionWrap from '../../wrapper/MotionWrap';
 
 interface SkillsInterface{
   name:string
@@ -104,7 +105,7 @@ const Skills = () => {
 };
 
 export default AppWrap(
-  Skills,
+  MotionWrap(Skills, 'app__skills'),
   'skills',
   'app__whitebg',
 );
